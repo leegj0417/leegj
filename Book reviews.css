@@ -1,0 +1,63 @@
+body {
+  font-family: "Noto Serif KR", serif;
+  background-color: #fcf9ef;
+}
+.una__navbar {
+  width: 99%;
+  height: 50px;
+  background-color: #f7f4ef;
+  border-radius: 8px;
+  margin-left: 1%;
+  margin-top: 1%;
+  box-shadow: 2px 5px 7px rgba(68, 65, 65, 0.5);
+  opacity: 0.9;
+  display: flex;
+  font-family: "Jua", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #454541;
+}
+
+.una__list {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 57%;
+  margin-top: 0.8%;
+  color: #a9a9a9;
+}
+.una__list-text {
+  margin: 1% 2%;
+}
+.una__list-text .color {
+  color: brown;
+}
+.exit__nav {
+  display: flex;
+  width: 10%;
+  justify-content: flex-end;
+}
+.center {
+  text-align: center;
+}
+
+.blank {
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.blank2 {
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+td a {
+  text-decoration: none;
+  color: #a9a9a9;
+}
+
+th a {
+  text-decoration: none;
+  color: #c2955a;
+}

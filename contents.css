@@ -1,0 +1,47 @@
+.contents__contatiner {
+  background-color: white;
+  height: 850px;
+}
+.header__text {
+  font-size: 50px;
+
+  text-align: center;
+
+  background-color: rgb(253, 244, 244);
+  padding: 10px;
+  margin: 0 auto;
+}
+#container {
+  margin-top: 50px;
+}
+.container__pics-1 {
+  height: 338px;
+}
+.container__pics-1,
+.container__pics-2 {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  position: relative;
+}
+.team__image,
+.about__image,
+.related__image,
+.book__image {
+  width: 570px;
+  height: 320px;
+  border-radius: 18px;
+}
+.about__image,
+.book__image {
+  margin-left: 3%;
+}
+.pic__text {
+  position: relative;
+  left: 40px;
+  top: -60px;
+  color: ivory;
+  font-size: 35px;
+  font-weight: 500;
+}

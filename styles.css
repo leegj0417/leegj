@@ -1,0 +1,9 @@
+@import "reset.css";
+@import "home.css";
+@import "contents.css";
+@import "what we offer.css";
+@import "copyright.css";
+@import url("https://fonts.googleapis.com/css?family=Jua&display=swap");
+body {
+  font-family: "Jua", sans-serif;
+}

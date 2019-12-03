@@ -1,0 +1,33 @@
+.ji__main {
+  text-align: center;
+}
+
+.ji__container {
+  background-color: #626567;
+
+  height: 300px;
+}
+.home__white-logo {
+  margin-top: 40px;
+  margin-left: 2%;
+  margin-bottom: 15px;
+}
+.container__text {
+  font-weight: 500;
+}
+.ji__address__korean {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: rgb(255, 254, 249);
+}
+.ji__address__english {
+  font-size: 12px;
+  margin-bottom: 35px;
+  color: rgb(207, 220, 220);
+}
+
+.ji__copyright {
+  font-size: 10px;
+  margin-bottom: 10px;
+  color: rgb(193, 193, 193);
+}
