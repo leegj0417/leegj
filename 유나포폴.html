@@ -1,244 +1,247 @@
 <!DOCTYPE html>
 <html>
-  <link
-    href="https://fonts.googleapis.com/css?family=Jua&display=swap"
-    rel="stylesheet"
-  />
-  <head>
-    <meta charset="utf-8" />
-    <style>
-      body {
-        font-family: "Jua", sans-serif;
-        background-color: #fcf9ef;
-      }
-      .una__navbar {
-        width: 99%;
-        height: 50px;
-        background-color: #f7f4ef;
-        border-radius: 8px;
-        margin-left: 1%;
-        margin-top: 1%;
-        box-shadow: 2px 5px 7px rgba(68, 65, 65, 0.5);
-        opacity: 0.9;
-        display: flex;
-      }
-      a {
-        text-decoration: none;
-        color: #454541;
-      }
-      .una__list {
-        width: 30%;
-        display: flex;
-        justify-content: space-around;
-        margin-right: 57%;
-        margin-top: 0.8%;
-        color: #a9a9a9;
-      }
-      .una__list-text {
-        margin: 1% 2%;
-      }
-      .exit__nav {
-        display: flex;
-        width: 10%;
+<link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet" />
 
-        justify-content: flex-end;
-      }
-      .una__list-text .color {
-        color: brown;
-      }
-      .inmenu {
-        float: left;
-        width: "100%";
-        box-sizing: border-box;
-      }
+<head>
+  <meta charset="utf-8" />
+  <style>
+    body {
+      font-family: "Jua", sans-serif;
+      background-color: #fcf9ef;
+    }
 
-      .X {
-        position: absolute;
-        float: right;
-      }
+    .una__navbar {
+      width: 99%;
+      height: 50px;
+      background-color: #f7f4ef;
+      border-radius: 8px;
+      margin-left: 1%;
+      margin-top: 1%;
+      box-shadow: 2px 5px 7px rgba(68, 65, 65, 0.5);
+      opacity: 0.9;
+      display: flex;
+    }
 
-      th {
-        color: #c2955a;
-      }
+    a {
+      text-decoration: none;
+      color: #454541;
+    }
 
-      td {
-        color: #a9a9a9;
-      }
+    .una__list {
+      width: 30%;
+      display: flex;
+      justify-content: space-around;
+      margin-right: 57%;
+      margin-top: 0.8%;
+      color: #a9a9a9;
+    }
 
-      .home_mark {
-        float: right;
-      }
+    .una__list-text {
+      margin: 1% 2%;
+    }
 
-      a:link {
-        color: black;
-        text-decoration: none;
-      }
+    .exit__nav {
+      display: flex;
+      width: 10%;
 
-      td a {
-        text-decoration: none;
-        color: #a9a9a9;
-      }
+      justify-content: flex-end;
+    }
 
-      th a {
-        text-decoration: none;
-        color: #c2955a;
-      }
+    .una__list-text .color {
+      color: brown;
+    }
 
-      .ctr1 {
-        float: left;
-        margin-left: 33%;
-      }
+    .inmenu {
+      float: left;
+      width: "100%";
+      box-sizing: border-box;
+    }
 
-      .mainface {
-        float: left;
-        margin-left: 9%;
-        margin-top: 3%;
-      }
+    .X {
+      position: absolute;
+      float: right;
+    }
 
-      .libon {
-        margin-left: 7%;
-        margin-top: 3%;
-        clear: both;
-      }
+    th {
+      color: #c2955a;
+    }
 
-      .c1 {
-        float: left;
-        line-height: 8px;
-        margin-left: 10%;
-        margin-top: 4%;
-        font-family: "Jua", sans-serif;
-      }
+    td {
+      color: #a9a9a9;
+    }
 
-      .c2 {
-        float: left;
-        line-height: 8px;
-        margin-left: 6%;
-        margin-top: 4%;
-        font-family: "Jua", sans-serif;
-      }
+    .home_mark {
+      float: right;
+    }
 
-      .c3 {
-        float: left;
-        line-height: 8px;
-        margin-left: 6%;
-        margin-top: 4%;
-        clear: right;
-        font-family: "Jua", sans-serif;
-      }
+    a:link {
+      color: black;
+      text-decoration: none;
+    }
 
-      .d1 {
-        float: left;
-        line-height: 8px;
-        margin-left: -44%;
-        margin-top: 22%;
-        font-family: "Jua", sans-serif;
-      }
+    td a {
+      text-decoration: none;
+      color: #a9a9a9;
+    }
 
-      .d2 {
-        float: left;
-        line-height: 8px;
-        margin-left: -27%;
-        margin-top: 22%;
-        font-family: "Jua", sans-serif;
-      }
+    th a {
+      text-decoration: none;
+      color: #c2955a;
+    }
 
-      .d3 {
-        float: left;
-        line-height: 8px;
-        margin-left: -11%;
-        margin-top: 22%;
-        font-family: "Jua", sans-serif;
-      }
+    .ctr1 {
+      float: left;
+      margin-left: 33%;
+    }
 
-      .profil {
-        position: absolute;
-        line-height: 8px;
-        margin-left: 10%;
-        margin-top: 30%;
-        font-family: "Jua", sans-serif;
-      }
-    </style>
-  </head>
+    .mainface {
+      float: left;
+      margin-left: 9%;
+      margin-top: 3%;
+    }
 
-  <body>
-    <div class="una__navbar">
-      <div class="una__list">
-        <div class="una__list-text">
-          <a href="introducing.html"><div class="color">팀원소개</div></a>
-        </div>
-        <div class="una__list-text">
-          <a href="About MIS.html">MIS</a>
-        </div>
-        <div class="una__list-text">
-          <a href="IT related MIS.html">IT</a>
-        </div>
-        <div class="una__list-text">
-          <a href="Book reviews.html">Book</a>
-        </div>
-      </div>
-      <div class="exit__nav">
-        <a href="Home.html">
-          <img src="X.png" width="50px" height="50px" />
+    .libon {
+      margin-left: 7%;
+      margin-top: 3%;
+      clear: both;
+    }
+
+    .c1 {
+      float: left;
+      line-height: 8px;
+      margin-left: 10%;
+      margin-top: 4%;
+      font-family: "Jua", sans-serif;
+    }
+
+    .c2 {
+      float: left;
+      line-height: 8px;
+      margin-left: 6%;
+      margin-top: 4%;
+      font-family: "Jua", sans-serif;
+    }
+
+    .c3 {
+      float: left;
+      line-height: 8px;
+      margin-left: 6%;
+      margin-top: 4%;
+      clear: right;
+      font-family: "Jua", sans-serif;
+    }
+
+    .d1 {
+      float: left;
+      line-height: 8px;
+      margin-left: -44%;
+      margin-top: 22%;
+      font-family: "Jua", sans-serif;
+    }
+
+    .d2 {
+      float: left;
+      line-height: 8px;
+      margin-left: -27%;
+      margin-top: 22%;
+      font-family: "Jua", sans-serif;
+    }
+
+    .d3 {
+      float: left;
+      line-height: 8px;
+      margin-left: -11%;
+      margin-top: 22%;
+      font-family: "Jua", sans-serif;
+    }
+
+    .profil {
+      position: absolute;
+      line-height: 8px;
+      margin-left: 10%;
+      margin-top: 30%;
+      font-family: "Jua", sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="una__navbar">
+    <div class="una__list">
+      <div class="una__list-text">
+        <a href="Introducing.html">
+          <div class="color">팀원소개</div>
         </a>
       </div>
+      <div class="una__list-text">
+        <a href="About MIS.html">MIS</a>
+      </div>
+      <div class="una__list-text">
+        <a href="IT related MIS.html">IT</a>
+      </div>
+      <div class="una__list-text">
+        <a href="Book reviews.html">Book</a>
+      </div>
     </div>
+    <div class="exit__nav">
+      <a href="Home.html">
+        <img src="X.png" width="50px" height="50px" />
+      </a>
+    </div>
+  </div>
 
-    <div class="libon">
-      <img src="리본.png" alt="리본" />
-    </div>
+  <div class="libon">
+    <img src="리본.png" alt="리본" />
+  </div>
 
-    <div class="mainface">
-      <img src="유나사진.jpg" alt="유나사진" width="300px;" heigh="500px;" />
-    </div>
+  <div class="mainface">
+    <img src="유나사진.jpg" alt="유나사진" width="300px;" heigh="500px;" />
+  </div>
 
-    <div class="c1">
-      <img src="엑셀로고.png" alt="엑셀로고" width="150px;" heigh="150px" />
-      <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MOS 자격증</h3>
-      <p>&nbsp;자격증 취득</p>
-    </div>
+  <div class="c1">
+    <img src="엑셀로고.png" alt="엑셀로고" width="150px;" heigh="150px" />
+    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MOS 자격증</h3>
+    <p>&nbsp;자격증 취득</p>
+  </div>
 
-    <div class="c2">
-      <img src="토익로고.png" alt="토익로고" width="150px;" heigh="150px" />
-      <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;토익</h3>
-      <p>&nbsp;자격증 취득</p>
-    </div>
+  <div class="c2">
+    <img src="토익로고.png" alt="토익로고" width="150px;" heigh="150px" />
+    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;토익</h3>
+    <p>&nbsp;자격증 취득</p>
+  </div>
 
-    <div class="c3">
-      <img
-        src="봉사활동로고.png"
-        alt="봉사활동로고"
-        width="150px;"
-        heigh="150px"
-      />
-      <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;봉사활동</h3>
-      <p>총 봉사시간이 200시간 초과</p>
-    </div>
+  <div class="c3">
+    <img src="봉사활동로고.png" alt="봉사활동로고" width="150px;" heigh="150px" />
+    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;봉사활동</h3>
+    <p>총 봉사시간이 200시간 초과</p>
+  </div>
 
-    <div class="d1">
-      <img src="파이썬로고.png" alt="파이썬로고" width="150px;" heigh="150px" />
-      <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python</h3>
-      <p>공부중</p>
-    </div>
+  <div class="d1">
+    <img src="파이썬로고.png" alt="파이썬로고" width="150px;" heigh="150px" />
+    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python</h3>
+    <p>공부중</p>
+  </div>
 
-    <div class="d2">
-      <img src="홈커밍로고.png" alt="홈커밍로고" width="150px;" heigh="150px" />
-      <h3>&nbsp;&nbsp;Home Comming Day</h3>
-      <p>뜻깊은 시간을 보낼 수 있었음�</p>
-    </div>
+  <div class="d2">
+    <img src="홈커밍로고.png" alt="홈커밍로고" width="150px;" heigh="150px" />
+    <h3>&nbsp;&nbsp;Home Comming Day</h3>
+    <p>뜻깊은 시간을 보낼 수 있었음�</p>
+  </div>
 
-    <div class="d3">
-      <img src="기타로고.png" alt="기타로고" width="150px;" heigh="150px" />
-      <h3>&nbsp;&nbsp;&nbsp;추후 추가 예정</h3>
-    </div>
+  <div class="d3">
+    <img src="기타로고.png" alt="기타로고" width="150px;" heigh="150px" />
+    <h3>&nbsp;&nbsp;&nbsp;추후 추가 예정</h3>
+  </div>
 
-    <div class="profil">
-      <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 최유나</h1>
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;PN :
-        010-3548-6527
-      </p>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;E-mail : choiyn0921@naver.com</p>
-      <p>&nbsp;&nbsp;&nbsp;Address :경기도 파주시</p>
-    </div>
-  </body>
+  <div class="profil">
+    <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 최유나</h1>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;PN :
+      010-3548-6527
+    </p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;E-mail : choiyn0921@naver.com</p>
+    <p>&nbsp;&nbsp;&nbsp;Address :경기도 파주시</p>
+  </div>
+</body>
+
 </html>
